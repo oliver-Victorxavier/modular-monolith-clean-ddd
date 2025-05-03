@@ -1,1 +1,8 @@
 "target/" 
+".idea/" 
+"target/" 
+"*.iml" 
+"*.log" 
+".DS_Store" 
+"*.class" 
+"*.jar" 
