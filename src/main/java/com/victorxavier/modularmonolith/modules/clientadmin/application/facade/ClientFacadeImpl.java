@@ -19,7 +19,6 @@ public class ClientFacadeImpl implements ClientFacade{
     public void addClient(AddClientInputDto input) {
         addClientUseCase.execute(input);
     }
-
     @Override
     public FindClientOutputDto findClient(FindClientInputDto input) {
         return findClientUseCase.execute(input);

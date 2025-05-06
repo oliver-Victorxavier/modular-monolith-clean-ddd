@@ -40,8 +40,6 @@ public class ClientJpaEntity {
         this.updatedAt = updatedAt;
     }
 
-    // Getters e setters
-
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
 
@@ -50,7 +48,6 @@ public class ClientJpaEntity {
     public Address getAddress() { return address; }
     public LocalDateTime getCreatedAt() { return createdAt; }
     public LocalDateTime getUpdatedAt() { return updatedAt; }
-
     public void setName(String name) { this.name = name; }
     public void setEmail(String email) { this.email = email; }
     public void setAddress(Address address) { this.address = address; }

@@ -15,7 +15,7 @@ public class FindClientOutputDto {
 
     public FindClientOutputDto() {}
     public FindClientOutputDto(String id, String name, String email, String address,
-                                LocalDateTime createdAt, LocalDateTime updatedAt) {
+                               LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -23,6 +23,7 @@ public class FindClientOutputDto {
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
+
 
     public FindClientOutputDto(String string, String name, String email, Address address, LocalDateTime createdAt, LocalDateTime updatedAt) {
     }

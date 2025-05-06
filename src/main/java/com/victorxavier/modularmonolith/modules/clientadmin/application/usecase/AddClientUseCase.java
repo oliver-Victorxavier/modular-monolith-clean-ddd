@@ -14,7 +14,6 @@ public class AddClientUseCase implements UseCase<AddClientInputDto, Void> {
     public AddClientUseCase(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
     }
-
     @Override
     public Void execute(AddClientInputDto input) {
         Client client = new Client(

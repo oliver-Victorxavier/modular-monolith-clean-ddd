@@ -15,7 +15,6 @@ public class ClientFacadeFactory {
     public ClientFacadeFactory(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
     }
-
     @Bean
     public ClientFacade createClientFacade() {
         var addClientUseCase = new AddClientUseCase(clientRepository);

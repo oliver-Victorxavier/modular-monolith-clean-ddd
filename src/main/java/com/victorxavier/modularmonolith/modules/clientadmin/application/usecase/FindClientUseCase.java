@@ -6,8 +6,6 @@ import com.victorxavier.modularmonolith.modules.clientadmin.domain.entity.Client
 import com.victorxavier.modularmonolith.modules.clientadmin.domain.repository.ClientRepository;
 import com.victorxavier.modularmonolith.shared.usecase.UseCase;
 
-
-
 public class FindClientUseCase implements UseCase<FindClientInputDto, FindClientOutputDto> {
     private final ClientRepository clientRepository;
 

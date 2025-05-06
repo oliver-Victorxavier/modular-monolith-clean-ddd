@@ -4,7 +4,6 @@ import com.victorxavier.modularmonolith.modules.clientadmin.domain.entity.Client
 import com.victorxavier.modularmonolith.modules.clientadmin.domain.repository.ClientRepository;
 import com.victorxavier.modularmonolith.shared.domain.valueobject.Id;
 import org.springframework.stereotype.Repository;
-
 import java.util.NoSuchElementException;
 
 @Repository
